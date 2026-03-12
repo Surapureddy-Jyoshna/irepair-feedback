@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>iRepair Technical Services Feedback</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>iRepair Technical Services</h2>
+<h3>Customer Feedback</h3>
+
+<input type="text" id="name" placeholder="Customer Name">
+
+<input type="text" id="phone" placeholder="Phone Number">
+
+<select id="service">
+<option value="">Select Service</option>
+<option>Mobile Screen Repair</option>
+<option>Battery Replacement</option>
+<option>Software Issue</option>
+<option>Charging Port Repair</option>
+<option>Other</option>
+</select>
+<div class="stars">
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+    <span class="star">★</span>
+</div>
+<textarea id="feedback" placeholder="Write your feedback"></textarea>
+
+<button onclick="sendFeedback()">Send Feedback via WhatsApp</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
